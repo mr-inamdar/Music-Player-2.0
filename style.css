@@ -726,7 +726,7 @@ header .right_bx1 h3{
     }
     header .menu_side .menu_song {
         width: 100%;
-        height: auto;
+        height: 75vh;
         overflow: auto;
     }
     header .menu_side .menu_song li span {
