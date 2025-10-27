@@ -727,6 +727,7 @@ header .right_bx1 h3{
     header .menu_side .menu_song {
         width: 100%;
         height: auto;
+        overflow-y:auto;
     }
     header .menu_side .menu_song li span {
         font-size: 20px;
@@ -861,4 +862,5 @@ header .right_bx1 h3{
         color: red;
         font-size: 20px;
     }
+
 }
