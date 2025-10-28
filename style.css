@@ -734,7 +734,7 @@ header .right_bx1 h3{
         width: 100%;
         /* height: auto;
         overflow-y:auto; */
-        height: 500px;
+        height: 400px;
     }
     header .menu_side .menu_song li span {
         font-size: 20px;
@@ -785,7 +785,7 @@ header .right_bx1 h3{
         height: 200px;
     }
     header .song_side .content p {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     header .song_side .populer_songs .pop_songs li {
         min-width: 120px;
