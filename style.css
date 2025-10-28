@@ -390,9 +390,7 @@ header .song_side nav .search .search_results .card img{
 header .song_side nav .search .search_results .card .content{
     width: 80%;
     height: 100%;
-    padding: 0;
-    /* font-size: 13px; */
-    /* font-weight: 600; */
+    padding: 0;
     color: #fff;
     margin-left: 3px;
 }
@@ -454,7 +452,7 @@ header .song_side .content h1{
     font-weight: 600;
 }
 header .song_side .content p{
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
     color: #636979;
     margin: 5px;
