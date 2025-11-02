@@ -31,11 +31,11 @@ const songs =[
         title:"Sachin-Jigar, Vishal Mishra & Amitabh Bhattacharya-Khoobsurat-Stree"
     },
     {
-        id: 5,
-        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Malang (Title Track)</span> &nbsp; <span lang='hindi'>मलंग</span> &nbsp; <span lang='urdu'>ملنگ</span></marquee>
-        <div class="subtitle">Ved Sharma</div>`,
-        poster: "banners/5.jpg",
-        title:"Ved Sharma-Malang (Title Track)"
+        id: 4,
+        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Jeene Laga Hoon-Ramaiya Vastavaiya</span> &nbsp; <span lang='hindi'>जीने लगा हूँ-रमैया वस्तावैया</span> &nbsp; <span lang='urdu'>جینے لگا ہوں-رمایہ وسٹاوایا</span></marquee>
+        <div class="subtitle">Atif Aslam & Shreya Ghoshal</div>`,
+        poster: "banners/4.jpg",
+        title:"Atif Aslam & Shreya Ghoshal-Jeene Laga Hoon-Ramaiya Vastavaiya"
     },
     {
         id: 6,
@@ -43,19 +43,22 @@ const songs =[
         <div class="subtitle">Anand Bhaskar (feat. Romy & Ginny Diwan)</div>`,
         poster: "banners/6.jpg",
         title:"Anand Bhaskar (feat. Romy & Ginny Diwan)-Varoon-Mirzapur"
-    },{
+    },
+    {
         id: 7,
-        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Mahiye Jinna Sona</span> &nbsp; <span lang='hindi'>माहिए जिन्ना सोना</span> &nbsp; <span lang='urdu'>ماہیے جنا سونا</span></marquee>
-        <div class="subtitle">Darshan Raval</div>`,
+        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>High On You</span> &nbsp; <span lang='hindi'>हाइ ऑन यू</span> &nbsp; <span lang='urdu'>ہائی آن یو</span></marquee>
+        <div class="subtitle">Jind Universe</div>`,
         poster: "banners/7.jpg",
         title:"Darshan Raval-Mahiye Jinna Sona"
-    },{
+    },
+    {
         id: 8,
-        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Ek Lamha</span> &nbsp; <span lang='hindi'>एक लम्हा</span> &nbsp; <span lang='urdu'>ایک لمحہ</span></marquee>
-        <div class="subtitle">Azaan Sami Khan</div>`,
-        poster: "banners/8.jpg",
-        title:"Azaan Sami Khan-Ek Lamha"
-    },{
+        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Ya Nabi صلى الله عليه وسلم Salam Alacka-Darood O Salam</span> &nbsp; <span lang='hindi'>या नबी ﷺ सलाम अलैका-दरूद ओ सलाम</span> &nbsp; <span lang='urdu'>یا نبی ﷺ سلام علیک-درود و سلام</span></marquee>
+        <div class="subtitle">Gulam Waris</div>`,
+        poster: "banners/8.webp",
+        title:"Gulam Waris-Ya Nabi صلى الله عليه وسلم Salam Alacka-Darood O Salam"
+    },
+    {
         id: 9,
         songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Ehsaas</span> &nbsp; <span lang='hindi'>एहसास</span> &nbsp; <span lang='urdu'>احساس</span></marquee>
         <div class="subtitle">Faheem Abdullah, Duha Shah, Vaibhav Pani & Hyder Dar</div>`,
@@ -464,4 +467,5 @@ const display_playlist = ()=>{
 }
 window.addEventListener("load", handleHashChange);
 window.addEventListener("hashchange", handleHashChange);
+
 media_query_for_mobile.addEventListener("change", handleHashChange);
