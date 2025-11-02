@@ -275,6 +275,10 @@ header .master_play span{
 header .master_play #current_time{
     margin: 0px 0px 0px 20px;
 }
+header .master_play #current_time,
+header .master_play #current_end{
+    font-size: 1.1rem;
+}
 header .master_play .bar{
     position: relative;
     width: 43%;
@@ -879,3 +883,4 @@ header .right_bx1 h3{
     }
 
 }
+
