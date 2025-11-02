@@ -8,11 +8,16 @@
     src: url('GIST-DVOTKishor.TTF')
     format("truetype");
 }
+@font-face {
+    font-family: 'Angrejifont_';
+    src: url('Looking.otf')
+    format("truetype");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Angrejifont_';
 }
 
 body{
@@ -390,7 +395,8 @@ header .song_side nav .search .search_results .card img{
 header .song_side nav .search .search_results .card .content{
     width: 80%;
     height: 100%;
-    padding: 0;
+    padding: 0;
+
     color: #fff;
     margin-left: 3px;
 }
@@ -870,4 +876,5 @@ header .right_bx1 h3{
         color: red;
         font-size: 20px;
     }
+
 }
