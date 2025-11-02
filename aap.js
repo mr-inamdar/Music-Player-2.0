@@ -96,10 +96,10 @@ const songs =[
         title:"Jeet Gannguli & Arijit Singh-Mera Pyar Tera Pyar-Jalebi"
     },{
         id: 15,
-        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Do U Know-Housefull 2</span> &nbsp; <span lang='hindi'>ढू यूं नो-हाउसफुल २</span> &nbsp; <span lang='urdu'>ڈو یوں نو-ہاؤسفول٢</span></marquee>
-        <div class="subtitle">Shaan & Shreya Ghoshal</div>`,
+        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Jug Jug Jeeve-Shiddat</span> &nbsp; <span lang='hindi'>जग जग जीयो-शिद्दत</span> &nbsp; <span lang='urdu'>جگ جگ جیوے-شدت</span></marquee>
+        <div class="subtitle">Sachet Tandon</div>`,
         poster: "banners/15.jpg",
-        title:"Shaan & Shreya Ghoshal-Do U Know-Housefull 2"
+        title:"Sachet Tandon-Jug Jug Jeeve-Shiddat"
     },{
         id: 16,
         songName: `<marquee behavior="lang" direction="-1"><span lang='en'>DIL KAA JO HAAL HAI-BESHARAM</span> &nbsp; <span lang='hindi'>दिल का जो हाल है-बेशरम</span> &nbsp; <span lang='urdu'>دل کا جو حال ہے—بےشرم</span></marquee>
@@ -469,4 +469,5 @@ window.addEventListener("load", handleHashChange);
 window.addEventListener("hashchange", handleHashChange);
 
 media_query_for_mobile.addEventListener("change", handleHashChange);
+
 
