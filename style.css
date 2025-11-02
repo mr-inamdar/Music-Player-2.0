@@ -748,6 +748,7 @@ header .right_bx1 h3{
     header .menu_side .menu_song li img {
         width: 52px;
         height: 52px;
+        border-radius: 2px;
     }
     header .menu_side .menu_song li h5 {
         font-size: 17px;
@@ -803,7 +804,7 @@ header .right_bx1 h3{
         height: 120px;
     }
     header .song_side .populer_songs .pop_songs li h5 marquee{
-        font-size: 16px;
+        font-size: 11px;
     }
     header .master_play {
         display: flex;
