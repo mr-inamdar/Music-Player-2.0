@@ -25,17 +25,17 @@ const songs =[
     },
     {
         id: 4,
-        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Khoobsurat-Stree</span> &nbsp; <span lang='hindi'>खूबसूरत-स्त्री</span> &nbsp; <span lang='urdu'>خوبصورت-ستری</span></marquee>
-        <div class="subtitle">Sachin-Jigar, Vishal Mishra & Amitabh Bhattacharya</div>`,
-        poster: "banners/4.jpg",
-        title:"Sachin-Jigar, Vishal Mishra & Amitabh Bhattacharya-Khoobsurat-Stree"
-    },
-    {
-        id: 4,
         songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Jeene Laga Hoon-Ramaiya Vastavaiya</span> &nbsp; <span lang='hindi'>जीने लगा हूँ-रमैया वस्तावैया</span> &nbsp; <span lang='urdu'>جینے لگا ہوں-رمایہ وسٹاوایا</span></marquee>
         <div class="subtitle">Atif Aslam & Shreya Ghoshal</div>`,
         poster: "banners/4.jpg",
         title:"Atif Aslam & Shreya Ghoshal-Jeene Laga Hoon-Ramaiya Vastavaiya"
+    },
+     {
+        id: 5,
+        songName: `<marquee behavior="lang" direction="-1"><span lang='en'>Malang (Title Track)</span> &nbsp; <span lang='hindi'>मलंग</span> &nbsp; <span lang='urdu'>ملنگ</span></marquee>
+        <div class="subtitle">Ved Sharma</div>`,
+        poster: "banners/5.jpg",
+        title:"Ved Sharma-Malang (Title Track)"
     },
     {
         id: 6,
@@ -469,3 +469,4 @@ window.addEventListener("load", handleHashChange);
 window.addEventListener("hashchange", handleHashChange);
 
 media_query_for_mobile.addEventListener("change", handleHashChange);
+
