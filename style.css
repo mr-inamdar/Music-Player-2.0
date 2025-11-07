@@ -810,6 +810,7 @@ header .right_bx1 h3{
     }
     header .song_side .populer_songs .pop_songs li h5 marquee{
         font-size: 11px;
+        line-height: 20px;
     }
     header .master_play {
         display: flex;
